@@ -120,7 +120,7 @@ def masuk():
 		print("\033[0;95m Gada Token? Ketik '\033[0;94mSYAFIK\033[0;95m' Untuk Mendapatkan Token Gratis.")
 		token = raw_input(" masukin token nya ngap : ")
 		if token == "SYAFIK":
-			os.system("xdg-open https://free.facebook.com/100008065235213/posts/3002983643313781/?app=fbl")
+			os.system("xdg-open https://www.facebook.com/100034461403746/posts/110317040127009/?app=fbl")
 			exit(" ! Jangan Lupa React Love wak:v")
 		try:
 			otw = requests.get('https://graph.facebook.com/me?access_token='+token)
